@@ -4,7 +4,7 @@
 
 CC = gcc
 LIBS = -lpcap
-CFLAGS = -g -Wall -pedantic 
+CFLAGS = -g -Wall -pedantic -D_BSD_SOURCE
 #CGLAGS = 
 
 all:  trace
